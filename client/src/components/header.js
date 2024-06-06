@@ -17,8 +17,9 @@ export default function Header() {
                             <h1 className="pt-2 text-center"
                                 style={{
                                     color: "#472836",
-                                    textShadow: "2px 2px 3px #136b55",
+                                    textShadow: "2px 2px 10px #136b55",
                                     width: "100vw",
+                                    fontSize: "60px",
                                 }}
                             >
                                 Wear it Again Wardrobe
