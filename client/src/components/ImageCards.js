@@ -13,9 +13,9 @@ const ImageCards = ({ filteredData }) => {
         <div className="container">
             <Row>
                 {filteredData.map((item, index) => (
-                    <Col key={index} xs={12} sm={6} md={4} lg={4} xl={4}>
+                    <Col key={index} xs={12} sm={6} md={4} lg={4} xl={4} style={{ padding: '10px' }}>
                         <Card onClick={() => handleCardClick(item)}>
-                            <Card.Img variant="top" src={item.image} alt={`ImageCards ${index + 1}`} />
+                            <Card.Img variant="top" src={item.image} alt={`ImageCards ${index + 1}`}/>
                         </Card>
                     </Col>
                 ))}
