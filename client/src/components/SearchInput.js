@@ -21,7 +21,7 @@ export default function SearchInput() {
                 // Shuffle the jsonData array
                 const shuffledData = shuffleArray(jsonData);
                 // Slice the shuffled array to contain only the first 4 elements
-                setFilteredData(shuffledData.slice(0, 4));
+                setFilteredData(shuffledData.slice(0, 6));
             } catch (error) {
                 console.error(error);
             }
